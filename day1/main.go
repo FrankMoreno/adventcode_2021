@@ -41,8 +41,6 @@ func part2(input []int) int {
 		if currentCount > prevCount {
 			count++
 		}
-
-		prevCount = currentCount
 	}
 
 	return count
