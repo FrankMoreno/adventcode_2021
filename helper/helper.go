@@ -31,3 +31,19 @@ func StringtoIntSlice(stringList []string) []int {
 
 	return intSlice
 }
+
+func Max(val1, val2 int) int {
+	if val1 > val2 {
+		return val1
+	}
+
+	return val2
+}
+
+func Min(val1, val2 int) int {
+	if val1 < val2 {
+		return val1
+	}
+
+	return val2
+}
